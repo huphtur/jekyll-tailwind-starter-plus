@@ -1,0 +1,11 @@
+---
+layout: default
+permalink: /blog/
+---
+<h1 class="text-5xl font-medium text-black leading-tight pt-4">Blog Posts</h1>
+
+<ul class="my-4">
+{% for post in site.posts %}
+  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+</ul>

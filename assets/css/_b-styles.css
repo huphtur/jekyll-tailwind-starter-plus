@@ -1,0 +1,9 @@
+body {
+  @apply max-w-3xl mx-auto text-gray-700 p-2;
+}
+
+/* Style your global default links without affecting your component link styles.
+source: https://mobile.twitter.com/hybrid_alex/status/1100761636414074880 */
+a:not([class]) { @apply text-brand-primary underline; }
+a:not([class]):hover { @apply text-black; }
+a:not([class]):active { @apply text-green-500; }

@@ -1,0 +1,17 @@
+/* ----------------------  BASE STYLES FOR BLOG POSTS  ---------------------- */
+
+.post p { @apply py-4; }
+
+.post strong { @apply text-black font-medium; }
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 { @apply font-medium text-black mt-6; }
+.post h1 { @apply text-4xl; }
+.post h2 { @apply text-3xl; }
+.post h3 { @apply text-2xl; }
+.post h4 { @apply text-xl; }
+.post h5 { @apply text-base; }
+.post h6 { @apply text-sm; }
+
+.post .highlight {
+  @apply p-4;
+}

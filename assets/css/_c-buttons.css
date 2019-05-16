@@ -1,0 +1,9 @@
+/* --------------------------  BUTTONS COMPONENT  --------------------------- */
+
+.btn { @apply font-bold text-white py-2 px-4 rounded; }
+
+.btn-primary { @apply bg-brand-primary ; }
+.btn-primary:hover { @apply bg-blue-700; }
+
+.btn-secondary { @apply bg-brand-secondary; }
+.btn-secondary:hover { @apply bg-gray-700; }
